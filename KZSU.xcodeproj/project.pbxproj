@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CBB741138C71B4008F9DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB740138C71B4008F9DDF /* UIKit.framework */; };
+		01CBB743138C71B4008F9DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB742138C71B4008F9DDF /* Foundation.framework */; };
+		01CBB745138C71B4008F9DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB744138C71B4008F9DDF /* CoreGraphics.framework */; };
+		01CBB74B138C71B4008F9DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CBB749138C71B4008F9DDF /* InfoPlist.strings */; };
+		01CBB74E138C71B4008F9DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CBB74D138C71B4008F9DDF /* main.m */; };
+		01CBB751138C71B4008F9DDF /* KZSUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CBB750138C71B4008F9DDF /* KZSUAppDelegate.m */; };
+		01CBB754138C71B4008F9DDF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01CBB752138C71B4008F9DDF /* MainWindow.xib */; };
+		01CBB75B138C71B5008F9DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB740138C71B4008F9DDF /* UIKit.framework */; };
+		01CBB75C138C71B5008F9DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB742138C71B4008F9DDF /* Foundation.framework */; };
+		01CBB75D138C71B5008F9DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CBB744138C71B4008F9DDF /* CoreGraphics.framework */; };
+		01CBB765138C71B5008F9DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01CBB763138C71B5008F9DDF /* InfoPlist.strings */; };
+		01CBB768138C71B5008F9DDF /* KZSUTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 01CBB767138C71B5008F9DDF /* KZSUTests.h */; };
+		01CBB76A138C71B5008F9DDF /* KZSUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CBB769138C71B5008F9DDF /* KZSUTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CBB75E138C71B5008F9DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01CBB733138C71B4008F9DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CBB73B138C71B4008F9DDF;
+			remoteInfo = KZSU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CBB73C138C71B4008F9DDF /* KZSU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZSU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CBB740138C71B4008F9DDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01CBB742138C71B4008F9DDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01CBB744138C71B4008F9DDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01CBB748138C71B4008F9DDF /* KZSU-Info.plist */ = {isa = PBXFileReference; path = "KZSU-Info.plist"; sourceTree = "<group>"; };
+		01CBB74A138C71B4008F9DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01CBB74C138C71B4008F9DDF /* KZSU-Prefix.pch */ = {isa = PBXFileReference; path = "KZSU-Prefix.pch"; sourceTree = "<group>"; };
+		01CBB74D138C71B4008F9DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01CBB74F138C71B4008F9DDF /* KZSUAppDelegate.h */ = {isa = PBXFileReference; path = KZSUAppDelegate.h; sourceTree = "<group>"; };
+		01CBB750138C71B4008F9DDF /* KZSUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSUAppDelegate.m; sourceTree = "<group>"; };
+		01CBB753138C71B4008F9DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		01CBB75A138C71B5008F9DDF /* KZSUTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZSUTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CBB762138C71B5008F9DDF /* KZSUTests-Info.plist */ = {isa = PBXFileReference; path = "KZSUTests-Info.plist"; sourceTree = "<group>"; };
+		01CBB764138C71B5008F9DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01CBB766138C71B5008F9DDF /* KZSUTests-Prefix.pch */ = {isa = PBXFileReference; path = "KZSUTests-Prefix.pch"; sourceTree = "<group>"; };
+		01CBB767138C71B5008F9DDF /* KZSUTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZSUTests.h; sourceTree = "<group>"; };
+		01CBB769138C71B5008F9DDF /* KZSUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSUTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CBB739138C71B4008F9DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB741138C71B4008F9DDF /* UIKit.framework in Frameworks */,
+				01CBB743138C71B4008F9DDF /* Foundation.framework in Frameworks */,
+				01CBB745138C71B4008F9DDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CBB756138C71B5008F9DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB75B138C71B5008F9DDF /* UIKit.framework in Frameworks */,
+				01CBB75C138C71B5008F9DDF /* Foundation.framework in Frameworks */,
+				01CBB75D138C71B5008F9DDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CBB731138C71B4008F9DDF = {
+			isa = PBXGroup;
+			children = (
+				01CBB746138C71B4008F9DDF /* KZSU */,
+				01CBB760138C71B5008F9DDF /* KZSUTests */,
+				01CBB73F138C71B4008F9DDF /* Frameworks */,
+				01CBB73D138C71B4008F9DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01CBB73D138C71B4008F9DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB73C138C71B4008F9DDF /* KZSU.app */,
+				01CBB75A138C71B5008F9DDF /* KZSUTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01CBB73F138C71B4008F9DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB740138C71B4008F9DDF /* UIKit.framework */,
+				01CBB742138C71B4008F9DDF /* Foundation.framework */,
+				01CBB744138C71B4008F9DDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01CBB746138C71B4008F9DDF /* KZSU */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB74F138C71B4008F9DDF /* KZSUAppDelegate.h */,
+				01CBB750138C71B4008F9DDF /* KZSUAppDelegate.m */,
+				01CBB752138C71B4008F9DDF /* MainWindow.xib */,
+				01CBB747138C71B4008F9DDF /* Supporting Files */,
+			);
+			path = KZSU;
+			sourceTree = "<group>";
+		};
+		01CBB747138C71B4008F9DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB748138C71B4008F9DDF /* KZSU-Info.plist */,
+				01CBB749138C71B4008F9DDF /* InfoPlist.strings */,
+				01CBB74C138C71B4008F9DDF /* KZSU-Prefix.pch */,
+				01CBB74D138C71B4008F9DDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CBB760138C71B5008F9DDF /* KZSUTests */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB767138C71B5008F9DDF /* KZSUTests.h */,
+				01CBB769138C71B5008F9DDF /* KZSUTests.m */,
+				01CBB761138C71B5008F9DDF /* Supporting Files */,
+			);
+			path = KZSUTests;
+			sourceTree = "<group>";
+		};
+		01CBB761138C71B5008F9DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CBB762138C71B5008F9DDF /* KZSUTests-Info.plist */,
+				01CBB763138C71B5008F9DDF /* InfoPlist.strings */,
+				01CBB766138C71B5008F9DDF /* KZSUTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CBB73B138C71B4008F9DDF /* KZSU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CBB76D138C71B5008F9DDF /* Build configuration list for PBXNativeTarget "KZSU" */;
+			buildPhases = (
+				01CBB738138C71B4008F9DDF /* Sources */,
+				01CBB739138C71B4008F9DDF /* Frameworks */,
+				01CBB73A138C71B4008F9DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZSU;
+			productName = KZSU;
+			productReference = 01CBB73C138C71B4008F9DDF /* KZSU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01CBB759138C71B5008F9DDF /* KZSUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CBB770138C71B5008F9DDF /* Build configuration list for PBXNativeTarget "KZSUTests" */;
+			buildPhases = (
+				01CBB755138C71B5008F9DDF /* Sources */,
+				01CBB756138C71B5008F9DDF /* Frameworks */,
+				01CBB757138C71B5008F9DDF /* Resources */,
+				01CBB758138C71B5008F9DDF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CBB75F138C71B5008F9DDF /* PBXTargetDependency */,
+			);
+			name = KZSUTests;
+			productName = KZSUTests;
+			productReference = 01CBB75A138C71B5008F9DDF /* KZSUTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01CBB733138C71B4008F9DDF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 01CBB736138C71B4008F9DDF /* Build configuration list for PBXProject "KZSU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01CBB731138C71B4008F9DDF;
+			productRefGroup = 01CBB73D138C71B4008F9DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CBB73B138C71B4008F9DDF /* KZSU */,
+				01CBB759138C71B5008F9DDF /* KZSUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CBB73A138C71B4008F9DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB74B138C71B4008F9DDF /* InfoPlist.strings in Resources */,
+				01CBB754138C71B4008F9DDF /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CBB757138C71B5008F9DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB765138C71B5008F9DDF /* InfoPlist.strings in Resources */,
+				01CBB768138C71B5008F9DDF /* KZSUTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CBB758138C71B5008F9DDF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CBB738138C71B4008F9DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB74E138C71B4008F9DDF /* main.m in Sources */,
+				01CBB751138C71B4008F9DDF /* KZSUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CBB755138C71B5008F9DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBB76A138C71B5008F9DDF /* KZSUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CBB75F138C71B5008F9DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CBB73B138C71B4008F9DDF /* KZSU */;
+			targetProxy = 01CBB75E138C71B5008F9DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01CBB749138C71B4008F9DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CBB74A138C71B4008F9DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01CBB752138C71B4008F9DDF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CBB753138C71B4008F9DDF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		01CBB763138C71B5008F9DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CBB764138C71B5008F9DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01CBB76B138C71B5008F9DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01CBB76C138C71B5008F9DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		01CBB76E138C71B5008F9DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZSU/KZSU-Prefix.pch";
+				INFOPLIST_FILE = "KZSU/KZSU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01CBB76F138C71B5008F9DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZSU/KZSU-Prefix.pch";
+				INFOPLIST_FILE = "KZSU/KZSU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01CBB771138C71B5008F9DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KZSU.app/KZSU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZSUTests/KZSUTests-Prefix.pch";
+				INFOPLIST_FILE = "KZSUTests/KZSUTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01CBB772138C71B5008F9DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KZSU.app/KZSU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KZSUTests/KZSUTests-Prefix.pch";
+				INFOPLIST_FILE = "KZSUTests/KZSUTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CBB736138C71B4008F9DDF /* Build configuration list for PBXProject "KZSU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CBB76B138C71B5008F9DDF /* Debug */,
+				01CBB76C138C71B5008F9DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CBB76D138C71B5008F9DDF /* Build configuration list for PBXNativeTarget "KZSU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CBB76E138C71B5008F9DDF /* Debug */,
+				01CBB76F138C71B5008F9DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CBB770138C71B5008F9DDF /* Build configuration list for PBXNativeTarget "KZSUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CBB771138C71B5008F9DDF /* Debug */,
+				01CBB772138C71B5008F9DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01CBB733138C71B4008F9DDF /* Project object */;
+}
