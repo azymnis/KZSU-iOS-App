@@ -7,6 +7,7 @@
 //
 
 #import "KZSUAppDelegate.h"
+#import "DjTableViewController.h"
 
 @implementation KZSUAppDelegate
 
@@ -16,6 +17,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc] init];
+    
+    // Create DJ list controller
+    DjTableViewController *djtv = [[DjTableViewController alloc] init];
+    djtv.title = @"KZSU DJs";
+    [nav pushViewController:djtv animated:NO];
+    [djtv release];
+    
+    [self.window addSubview:nav.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
